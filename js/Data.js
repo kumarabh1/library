@@ -1,0 +1,58 @@
+let shopItemsData = [
+  {
+    id: "jfhgbvnscs",
+    name: "Novel",
+    price: 45,
+    desc: "When I Understand Myself.",
+    img: "images/novel4.jfif",
+  },
+  {
+    id: "ioytrhndcv",
+    name: "Novel",
+    price: 100,
+    desc: "The Domestic Goddess.",
+    img: "images/novel2.png",
+  },
+  {
+    id: "wuefbncxbsn",
+    name: "Novel",
+    price: 25,
+    desc: "Follow Me To Ground.",
+    img: "images/novel3.jfif",
+  },
+  {
+    id: "thyfhcbcv",
+    name: "Novel",
+    price: 300,
+    desc: "Sherlock Holmes.",
+    img: "images/novel5.jfif",
+  },
+  {
+    id: "jftzbvnscs",
+    name: "Comic",
+    price: 45,
+    desc: "Spider Man.",
+    img: "images/comic4.jfif",
+  },
+  {
+    id: "ioytuandcv",
+    name: "Comic",
+    price: 100,
+    desc: "Adventure Into The Unknown.",
+    img: "images/comic2.jfif",
+  },
+  {
+    id: "wuefbvcxbsn",
+    name: "Comic",
+    price: 25,
+    desc: "X-Men.",
+    img: "images/comic3.jfif",
+  },
+  {
+    id: "thfyhcbcv",
+    name: "Comic",
+    price: 300,
+    desc: "Captain America.",
+    img: "images/comic1.jfif",
+  },
+];

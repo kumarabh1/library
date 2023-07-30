@@ -1,0 +1,435 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+#header nav {
+    width: 100% ;
+    height: 70px;
+    background-color: rgba(0,0 , 0, 0.08);
+}
+
+#header img{
+    height: 68px;
+    width: 90px;
+    padding: 0px 12px;
+}
+
+#header ul{
+    list-style: none;
+    position: relative;
+    display: flex;
+    /* float: right; */
+    justify-content: space-between;
+    
+}
+#header ul li {
+    font-size: 20px;
+    font-weight: 400;
+    
+    
+}
+/* #header ul li a{
+    text-decoration: none;
+    color: rgb(5, 37, 87);
+    
+} */
+.dim{
+    margin-top: 18px;
+    margin-right: 10px;
+
+}
+/* #header ul li a:hover{
+    color: rgb(249, 160, 44);
+} */
+
+#header ul li a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-family: "Lato";
+    font-size: 20px;;
+    color: rgb(5, 37, 87);
+    text-transform: uppercase;
+    padding: 4px 0;
+    transition: 0.5s;
+  }
+  #header ul li a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    background: #ff7000;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  #header ul li a:hover {
+    color: #0e1b36;
+  }
+  #header ul li a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  
+
+  #content{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    
+  
+
+  }
+  /* #content img{
+    height: 90vh;
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: 60vh;
+  } */
+  main{
+    position: relative;
+    background-image: url("young-student-looking-book-library.jpg");
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+  }
+  aside{
+    background-color: rgb(0,0,0,0.18);
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+  }
+  #content h1{
+    color: rgb(0, 0, 0.0.98);
+    background-image:linear-gradient(orange,white,green);
+    font-size: 35px;
+    font-weight: 400;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 400px;
+    position: absolute;
+    border: 2px solid white;
+    opacity: 0.8;
+    /* margin-top: 30px;
+    margin-left: 220px; */
+    
+  }
+  #content p{
+    color: #fff;
+    padding: 12px;
+  }
+  #content h2{
+    color: rgb(0,0,0,0.8);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    
+  }
+  #article1{
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    position: relative;
+    background-color: #fff;
+    opacity: 0.6;
+    padding: 8px;
+    border-radius: 32px;
+    border: 2px solid black;
+    margin-top: 140px;
+  }
+  #content a{
+    text-decoration: none;
+    color: red;
+    transition: 2sec;
+  }
+  #content a:hover{
+    color: #750ca5;
+    font-size: 102%;
+    transform:rotateX(360 degree);
+    
+  }
+  #article2{
+    width: 90%;
+    height: 100px;
+    background: #fff;
+    border: 5px solid black;
+    font-size: 25px;
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #aside1 h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: darkgreen;
+    
+  }
+  #article3{
+    width: 90%;
+    height: 100px;
+    /* background: rgb(0,0,0,0.128); */
+    background: #fff;
+    border: 5px solid black;
+    font-size: 25px;
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #article4{
+    width: 90%;
+    height: 100px;
+    background: #fff;
+    border: 5px solid black;
+    font-size: 25px;
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #article5{
+    width: 90%;
+    height: 100px;
+    background: #fff;
+    border: 5px solid black;
+    font-size: 25px;
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+.cartslide{
+  position: relative;
+  
+}
+/* #cartAmount{
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: gold;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 2px;
+} */
+.Novel{
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Novel h1{
+  font-size: 30px;
+  background: #ff7000;
+  border: 2px solid black;
+  color: #fff;
+}
+#book1{
+  margin-bottom: 10px;
+}
+
+footer{
+  height: 20vh;
+  background: #0b3a4f;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 16px;
+  
+}
+footer ul{
+  list-style: none;
+  
+}
+footer ul li{
+  margin: 4px;
+}
+footer a{
+  color: #fff;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+
+#foot2{
+  background: #0e1b36;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 542px) and (min-width:367px) {
+  /* body {
+    background-color: lightblue;
+  } */
+
+  #header ul li a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-family: "Lato";
+    font-size: 10px;;
+    color: rgb(5, 37, 87);
+    text-transform: uppercase;
+    padding: 4px 0;
+    transition: 0.5s;
+  }
+
+  #aside1 h2{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: darkgreen;
+    
+  }
+
+
+  
+}
+
+@media only screen and (max-width: 367px) {
+  /* body {
+    background-color: lightblue;
+  } */
+  #header ul li a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    font-family: "Lato";
+    font-size: 6px;;
+    color: rgb(5, 37, 87);
+    text-transform: uppercase;
+    padding: 3px 0;
+    transition: 0.5s;
+  }
+
+  #aside1 h2{
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: darkgreen;
+    
+  }
+  #article2{
+    width: 90%;
+    height: 100px;
+    background: #fff;
+    border: 5px solid black;
+    font-size: 16px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #article3{
+    width: 90%;
+    height: 100px;
+    /* background: rgb(0,0,0,0.128); */
+    background: #fff;
+    border: 5px solid black;
+    font-size: 16px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #article4{
+    width: 90%;
+    height: 100px;
+    background: #fff;
+    border: 5px solid black;
+    font-size: 16px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #article5{
+    width: 90%;
+    height: 100px;
+    background: #fff;
+    border: 5px solid black;
+    font-size: 16px;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .dim{
+    /* margin-top: 22px; */
+    margin-right: 6px;
+    display: none;
+
+}
+
+
+}
+
+@media only screen and (min-width: 1080px) {
+  #content{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    
+  
+
+  }
+  main{
+    position: relative;
+    //background-image: url(young-student-looking-book-library.jpg);
+    height: 110vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+  }
+}
+
+
+
+
+
+
+
+
+  
+  
