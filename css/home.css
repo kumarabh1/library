@@ -287,9 +287,7 @@ footer a:hover{
 }
 
 @media only screen and (max-width: 542px) and (min-width:367px) {
-  /* body {
-    background-color: lightblue;
-  } */
+  
 
   #header ul li a {
     position: relative;
